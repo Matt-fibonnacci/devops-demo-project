@@ -33,7 +33,7 @@ pipeline {
 
     stage('Build and Push Docker Image') {
       environment {
-        DOCKER_IMAGE = "matt-fibonnacci/demo-java-app:${build_version}"
+        DOCKER_IMAGE = "m1a2t3t/demo-java-app:${build_version}"
       }
       steps {
         script {
